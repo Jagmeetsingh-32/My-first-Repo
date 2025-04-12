@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body><h1>Vasuli Form</h1>
+    <form action="jidr store hoga ya url" method="post" accept-charset="UTF-8">
+        <fieldset>
+        <label for="Fname">First Name</label>
+        <input type="text" name="Fname" placeholder="First Name">
+        <label for="Lname">Last Name</label>
+        <input type="text" placeholder="Last Name" name="Lname">
+        <br><br>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" placeholder="@gmail">
+        <br><br>
+        <label for="password">Password</label><br>
+        <input type="password" name="password" placeholder="Password"><br><br>
+        <label for="cpassword">Confirm Password</label><br>
+        <input type="password" name="cpassword" placeholder="Confirm Password"><br><br>
+        <label for="date">Date of Birth</label><br>
+        <input type="date" name="date" placeholder="Date">
+        <br>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Address sahi dalne ka kya..</legend>
+           
+            <div><textarea name="Address" id="" placeholder="Address"  cols="56" rows="3"></textarea></div><br>
+            <label for="city" >City</label><br>
+
+        <select name="city">city
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Banglore">Banglore</option>
+            <option value="chennai" >chennai</option>
+        </select><br>
+<br>
+        </fieldset><br>
+        
+        <fieldset>
+            <legend>Apna ling Btao</legend>
+            <input type="radio" name="gender" value="male"required>Male
+            <input type="radio" name="gender" value="female"required>Female
+            <input type="radio" name="gender" value="others"required>Others
+        </fieldset><br>
+        
+
+        <fieldset >
+            <legend>Kitni kmai hoti hai</legend>
+            <input type="checkbox" name="paisa" value="0-4lakh"required>0-4 lakh
+            <input type="checkbox" name="paisa" value="4-15 lakh"required>4-15 lakh
+            <input type="checkbox" name="paisa" value="15-crore"required>15-crore
+        </fieldset>
+<br>
+        <button>Submit</button>
+    </form>
+    
+</body>
+</html>
